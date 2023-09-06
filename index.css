@@ -1,0 +1,398 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+
+}
+img {
+    cursor: pointer;
+}
+nav {
+    padding: 10px 5%;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(0, 0, 0.2);
+    background: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+   
+}
+.naf-right img{
+    width: 20px;
+    margin-right: 25px;
+}
+.user-icon{
+    width: 20px;
+    border-radius: 50%;
+    margin-right: 0;  
+}
+.naf-left .menu{
+    width: 22px;
+    margin-right: 20px;
+}
+.naf-left .logo{
+  width: 150px;
+}
+.mic-icon{
+    width: 16px;
+}
+.search-box{
+    border: 1px solid #ccc;
+    outline: none;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+.search-box input{
+    width: 400px;
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+.search-box img{
+    width: 15px;
+}
+.sidebar{
+    background: #fff;
+    width: 15%;
+    padding-left: 2%;
+    height: 100vh;
+    position: fixed;
+    padding-top: 80px;
+    top: 0;
+
+}
+.sidebr-small{
+    width: 5%;
+
+}
+.sidebr-small p{
+    display: none;
+
+}
+.sidebr-small h3{
+    display: none;
+}
+.sidebr-small hr{
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.shortcut-links a img {
+    width: 20px;
+    margin-right: 20px;
+}
+.shortcut-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+.shortcut-links a:first-child{
+    color: #ed3838;
+}
+.sidebar hr {
+    border: 0;
+    height: 1px;
+    width: 85%;
+    background: #ccc;
+}
+.subscriped-list h3 {
+    margin: 20px 0;
+    font-size: 13px;
+    color: #5a5a5a;
+}
+.subscriped-list a img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+
+}
+.subscriped-list a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+
+}
+
+
+
+.container{
+
+    background: #f9f9f9;
+    padding-left: 17%;
+    padding-top: 20px;
+    padding-right: 2%;
+    padding-bottom: 20px;
+    
+}
+.large-container{
+    padding-left: 7%;
+
+}
+.banner{
+    width: 100%;
+}
+.banner img{
+    width: 100%;
+    border-radius: 4px;
+}
+.lsite-conteiner{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px ,1fr));
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+}
+.vd-list .thubnaul{
+    width: 100%;
+    border-radius: 5px;
+
+}
+.vd-list .flex-div{
+    align-items: flex-start;
+    margin-top: 7px;
+}
+.vd-list .flex-div img{
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.vd-info{
+    font-size: 13px;
+    color: #5a5a5a;
+}
+.vd-info a {
+    color: #000;
+    display: block;
+    margin-bottom: 5px;
+    
+}
+
+@media (max-width: 900px){
+    .menu{
+        display: none;
+    }
+    .sidebar{
+        display: none;
+    }
+    .container .large-container{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .naf-right img{
+        display: none;
+    }
+     .naf-right .user-icon{
+        width: 30px;
+        display: block;
+    }
+    .search-box input{
+        width: 100%;}
+}
+.logo{
+    width: 20px;
+}
+.ply-container{
+    padding-left: 2%;
+}
+.rows{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ply-vedio{
+
+    flex-basis: 69%;
+}
+.right-sidebar{
+    flex-basis: 30%;
+  
+}
+.ply-vedio video{
+    width: 100%;
+}
+.sidebar-vd-list {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+.sidebar-vd-list img{
+    width: 100%;
+}
+.sidebar-vd-list .smll-thumbnail{
+    flex-basis: 49%;
+}
+.sidebar-vd-list .vd-info{
+    flex-basis: 49%;
+    padding: 10px;
+
+}
+.vd-info a {
+    font-size: 20px;
+}
+.ply-vedio .tags a {
+    color: #0000ff;
+    font-size: 30px;
+}
+.ply-vedio h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.ply-vedio .ply-vedio-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #5a5a5a;
+
+}
+.ply-vedio-info  a img {
+    width: 20px;
+    margin-right: 10px;
+
+}
+.ply-vedio-info a {
+    display: inline-block;
+    align-items: center;
+    margin-left: 10px;
+}
+.ply-vedio hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin: 10px 0;
+}
+.puplisher{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    line-height: 18px;
+}
+.puplisher div {
+    flex: 1;
+}
+.puplisher img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.puplisher div p {
+    color: #000;
+    font-size: 18px;
+    font-weight: 600;
+}
+.puplisher div span {
+    color: #000;
+    font-size: 10px;
+    font-weight: 600;
+}
+.puplisher button{
+    border: 0;
+    color: #fff;
+    background: #ed3838;
+    padding: 8px 30px;
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+
+}
+.vid-descrption{
+    padding-left: 55px;
+    margin: 15px 0;
+}
+.vid-descrption p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #5a5a5a;
+}
+.add-comme{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+.add-comme img {
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.add-comme input{
+    outline: 0;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    width: 100%;
+    background: transparent;
+    padding-top: 10px;
+}
+.odl-cm{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+.odl-cm img {
+    width: 35px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+.odl-cm h3 {
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.odl-cm  h3 span{
+    font-size: 10px;
+    color: #5a5a5a;
+    margin-left: 3px;
+
+}
+.odl-cm .com-action{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin: 10px 0;
+    margin-left: 10px;
+}
+.odl-cm .com-action img {
+    width: 20px;
+    margin-right:20px;
+    border-radius: 0;
+}
+ .odl-cm .com-action img span{
+    margin-left: 20px;
+    
+}
+
+
+@media(max-width:900){
+
+    .ply-vedio{
+        flex-basis: 100%;
+    }
+    .right-sidebar{
+        flex-basis: 100%;
+    }
+    .ply-container{
+        padding-left: 5%;
+    }
+    .vid-descrption{
+        padding-left: 0;
+    }
+}
